@@ -1,0 +1,40 @@
+
+
+@media screen and (min-width: 721px){
+
+
+    body {
+        font-size: 10px;
+        font-family: "Javanese Text";
+        background-color: #898010;
+    }
+
+    .menu {
+        border: solid black 1px;
+        width: 80px;
+        background-color: #e9df12;
+    }
+
+    .c {
+        display: none;
+        position: absolute;
+    }
+
+    .b:hover + .c {
+        display: block;
+
+    }
+    .b{
+        height: 80px;
+    }
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    background-color: wheat;
+}
